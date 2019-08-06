@@ -634,8 +634,7 @@ if ($_GET['action'] == 'powerpoint') {
 
 if ($_GET['action'] == 'setimagemanual') {
 	$outputtext =  "set to manual imageplayer";
-	system("sudo cp /var/www/sync/xsessionimage /home/pi/.config/lxsession/LXDE/autostart");
-	system("sudo cp /var/www/sync/rc.local.screenshare /etc/rc.local");
+	system("sudo cp /var/www/sync/rc.local.imagemanual /etc/rc.local");
 }
 
 if ($_GET['action'] == 'setpdf') {
