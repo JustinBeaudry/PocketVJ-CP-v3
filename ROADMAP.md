@@ -2,6 +2,8 @@
 **********
 ### Important:<br />
 
+- Add screensharing button in remote tab (is currently only in autostart available)
+
 - clean up scripts...
 
 - fix [terminal square blink](https://raspberrypi.stackexchange.com/questions/3268/how-to-disable-local-terminal-showing-through-when-playing-video) when nothing is playing (in osc mode, also in standard mode?) <br />
@@ -21,16 +23,11 @@
 ### Streaming: <br />
 - advanced HTML5 contents (maybe insta & twitter feeds)<br />
 - Remove NDI since NewTek discountinued ARM support<br />
-- Update Tcpsyphon (https://github.com/z37soft/INetSyphon_RaspberryPi_SDK) to newest version.<br />
 - uv4l (https://www.linux-projects.org/uv4l/tutorials/desktop-streaming/)<br />
 
 ### Image: <br />
-- slideshow with ken burns effect (maybe with QT: https://gist.github.com/nbergont/8963892, or openFramworks ofImage) <br />
-- make a new slideshow function based on webbrowser so we could use transition effects <br />
-
-### Mapper: <br />
-- Build a completely new version of Mapper with more performance, remote controllable, syncable, edge blending. Prototype availabe on my github https://github.com/magdesign/MAGmapper. <br />
-- Find a way to make the B101 CSI HDMI brige working again in ofxMapperCam. <br />
+- slideshow with ken burns effect (tested it, there is not enough processing power) <br />
+- make a new slideshow function based on webbrowser so we could use transition effects (tested it, there is not enough processing power) <br />
 
 ### Filebrowser: <br />
 - Simplified filebrowser to upload files with drag'n'drop (dropzone.js, but how to configure server?) <br />
