@@ -99,7 +99,7 @@ You can change these values and commands in **/sync/osc_control.js**
 `/rotate180`
 
 - Rotates screen 180 degrees
-
+startmasterone97
 `/rotate270`
 
 - Rotates screen 270 degrees
@@ -205,8 +205,13 @@ You can change these values and commands in **/sync/osc_control.js**
 - Plays Video 12
 
 
-and so on, currently up to  `/startmaster30`
+and so on, currently up to  `/startmaster99`
 
+`/startmasterone01`
+
+- Plays Video o1 once
+
+and so on, currently up to  `/startmasterone99`
 
 
 `/startslave`
