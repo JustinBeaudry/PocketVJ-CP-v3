@@ -806,6 +806,8 @@ if ($_GET['action'] == 'clean') {
 //# also files on usb sticks
 	system("sudo rm -R /media/usb/.[DTf_]*");
 	system("sudo rm -R /media/usb/__MACOSX");
+	system("sudo rm -Rf /media/usb/.Spotlight-V100/");
+
 }
 
 
@@ -2037,6 +2039,15 @@ if ($_GET['action'] == 'ndisend') {
 	$output = shell_exec('sudo /home/pi/NDI_SDK/examples/C++/NDIlib_Send_Video/./NDIlib_Send_Video /media/internal/video/* &');
 	$preoutputtext =  "<pre>$output</pre>";
 	$outputtext = "$preoutputtext";
+}
+
+//# Start Screenshare
+
+if ($_GET['action'] == 'startscreenshare') {
+	$outputtext =  "start screenshare";
+	system("sudo /var/www/sync/stopall");
+	system("sudo cp /var/www/sync/vncstartup /home/pi/.config/lxsession/LXDE/autostart");
+	system("sudo su -s /bin/bash -c startx pi &");
 }
 
 //# System Stuff for Fun
