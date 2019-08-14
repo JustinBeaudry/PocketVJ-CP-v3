@@ -1,5 +1,7 @@
 # PocketVJ 3.x Control Panel
 
+Fixed manual slideshow<br />
+
 ## CP 2.4.4 17.Mai 2019<br />
 Fixed force HD resolution from 1080i to 1080p<br />
 Added Syphon wall buttons <br />
