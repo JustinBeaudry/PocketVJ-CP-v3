@@ -1913,7 +1913,6 @@ if ($_GET['action'] == 'setexpansion') {
 }
 
 
-
 //# PiWall 4 Screen setup
 
 if ($_GET['action'] == 'piwall_topleft') {
@@ -2071,7 +2070,21 @@ if ($_GET['action'] == 'cpuusage') {
 	$outputtext = wordwrap($preoutputtext, 124, "<br />\n");
 }
 
-//# Stop Webserver
+//# Webserver
+
+if ($_GET['action'] == 'passwddissable'){
+	$outputtext =  "disable CP login password";
+	system("sudo cp /var/www/sync/passwddisable /etc/lighttpd/lighttpd.conf");
+	system("sudo service lighttpd restart");
+}
+
+if ($_GET['action'] == 'passwdenable'){
+	$outputtext =  "enable CP login password";
+	system("sudo cp /var/www/sync/passwdenable /etc/lighttpd/lighttpd.conf");
+	system("sudo service lighttpd restart");
+}
+
+
 
 if ($_GET['action'] == 'stopwebserver'){
 	$outputtext =  "CP - Webserver down";
@@ -2083,6 +2096,19 @@ if ($_GET['action'] == 'stopwebserver'){
 if ($_GET['action'] == 'oscreceiver') {
 	system("sudo /var/www/sync/osc_start");
 	$outputtext =  "start OSC Control Receiver";
+}
+
+
+//# Remote Access over Internet
+
+if ($_GET['action'] == 'remoteaccesson'){
+	$outputtext =  "Enables web remote access";
+	//system("sudo needs to be defined");
+}
+
+if ($_GET['action'] == 'remoteaccessoff'){
+	$outputtext =  "Disables web remote access";
+	//system("sudo needs to be defined");
 }
 
 
