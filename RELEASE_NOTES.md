@@ -4,9 +4,9 @@
 
 ## CP 2.4.4a 14.August 2019<br />
 
-cahnged vncstartup to be able to manual start
-Added show IP script
-Added RJ45 IP to screenshare
+Changed vncstartup to be able to manual start<br />
+Added show IP script<br />
+Added RJ45 IP to screenshare<br />
 Fixed manual slideshow<br />
 
 ## CP 2.4.4 17.Mai 2019<br />
