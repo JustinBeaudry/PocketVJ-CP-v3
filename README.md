@@ -6,19 +6,13 @@ Works only with PocketVJ 3.x
 ### https://www.pocketvj.com
 
 These files are used to control the PocketVJ 3.x via webbrowser. \
-Clone everything into the `/var/www` directory.
+Clone everything into the `/var/www/` directory.
 
 *****************************
 
-# Always read the release notes before you update: https://github.com/magdesign/PocketVJ-CP-v3/blob/master/RELEASE_NOTES.md
+## Always read the release notes before you update: 
+### https://github.com/magdesign/PocketVJ-CP-v3/blob/master/RELEASE_NOTES.md
 
-
-
-## Instruction
-
-- Add www-data to your sudoers list with:\
-   `visudo` add this line at the end: `www-data ALL=(ALL) NOPASSWD: ALL`
-- Allow php with: `sudo lighty-enable-mod fastcgi-php`
 
 
 ### To do list:
@@ -31,9 +25,17 @@ https://github.com/magdesign/PocketVJ-CP-v3/blob/master/ROADMAP.md
 
 
 
+
+
 ### If you Build it from scratch
 use the Raspian Jessie Lite image together with RPi2/RPi3<br />
 (no official support for Raspian Stretch yet, but most of things should work, gstreamer0.10-plugins-bad gstreamer1.0 have no canditate)
+
+- Add www-data to your sudoers list with:\
+   `visudo` add this line at the end: `www-data ALL=(ALL) NOPASSWD: ALL`
+- Allow php with: `sudo lighty-enable-mod fastcgi-php`
+
+
 
 ### Dependencies to install:
 
@@ -133,6 +135,6 @@ wget http://dl.piwall.co.uk/pwlibs1_1.1_armhf.deb \
 
 ...
 
-Please support this project, otherwise it will die some day...!
+Please support this project, by ordering something in the webshop!
 
 https://www.pocketvj.com
