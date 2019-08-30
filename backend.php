@@ -1129,6 +1129,22 @@ if ($_GET['action'] == 'factoryreset') {
 	//system("sudo apt-get clean");
 }
 
+
+
+//# Set PocketVJ version
+
+if ($_GET['action'] == 'settoexhibition') {
+	$outputtext =  "Set to Exhibition";
+	//system("to be defined");
+}
+
+if ($_GET['action'] == 'settortc') {
+	$outputtext =  "Set to RTC";
+	//system("to be defined");
+}
+
+
+
 //# Set Wifi Channel
 
 if ($_GET['action'] == 'setwifi1') {

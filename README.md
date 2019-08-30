@@ -3,22 +3,16 @@ Works only with PocketVJ 3.x
 
 # PocketVJ Control Panel 2.x.x
 
-### http://www.pocketvj.com
+### https://www.pocketvj.com
 
 These files are used to control the PocketVJ 3.x via webbrowser. \
 Clone everything into the `/var/www` directory.
 
 *****************************
-## We are looking for a JavaScript developer, 
-- node.js
-- web: file handling, dropzones, php scripts, websockets, slideshows
 
-send your application to: info_at_magdesign.ch
-***************************
+# Always read the release notes before you update: https://github.com/magdesign/PocketVJ-CP-v3/blob/master/RELEASE_NOTES.md
 
-## Always read the release notes before you update: https://github.com/magdesign/PocketVJ-CP-v3/blob/master/RELEASE_NOTES.md
 
-![Alt text](https://github.com/magdesign/PocketVJ-CP-v3/blob/master/05_mapper.png?raw=true "Optional Title")
 
 ## Instruction
 
@@ -26,14 +20,16 @@ send your application to: info_at_magdesign.ch
    `visudo` add this line at the end: `www-data ALL=(ALL) NOPASSWD: ALL`
 - Allow php with: `sudo lighty-enable-mod fastcgi-php`
 
-#### Content Locations
-- The video files have to be stored in `/media/internal/video`
-- The image files have to be stored in `/media/internal/images`
-- The pdf files have to be stored in `/media/internal/pdf`
-- The audio files in `/media/internal/audios`
 
 ### To do list:
 https://github.com/magdesign/PocketVJ-CP-v3/blob/master/ROADMAP.md
+
+
+
+
+
+
+
 
 ### If you Build it from scratch
 use the Raspian Jessie Lite image together with RPi2/RPi3<br />
@@ -68,7 +64,7 @@ sudo make install <br />
 remove qlcplus source folder to free up space: <br />
 `
 sudo rm -rf /home/pi/qlcplus
-` 
+`
 <br />
 install Overlay: <br />
 `git clone https://github.com/AndrewFromMelbourne/raspidmx to /home/pi/`
@@ -139,4 +135,4 @@ wget http://dl.piwall.co.uk/pwlibs1_1.1_armhf.deb \
 
 Please support this project, otherwise it will die some day...!
 
-http://www.pocketvj.com
+https://www.pocketvj.com
