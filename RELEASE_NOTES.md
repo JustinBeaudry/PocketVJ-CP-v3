@@ -1,6 +1,11 @@
 # PocketVJ 3.x Control Panel
 
+## Image 3.9 01.September 2019<br />
 
+Added xvfb, rtmidi and many other useful tools<br />
+Added Password login for CP<br />
+Added SSL self assigned script for https<br />
+Updated kernel<br />
 
 ## CP 2.4.4a 14.August 2019<br />
 
