@@ -1,11 +1,5 @@
 ## Roadmap
 **********
-### Important:<br />
-
-- fix [terminal square blink](https://raspberrypi.stackexchange.com/questions/3268/how-to-disable-local-terminal-showing-through-when-playing-video) when nothing is playing (in osc mode, also in standard mode?) ????<br />
-
-- add dmx in scripts to trigger videos via dmx: https://wiki.openlighting.org/index.php/OLA_DMX_Trigger <br />
-
 
 ### Video: <br />
 - fade in/out for movies <br />
@@ -44,15 +38,17 @@
 - screen controls for color, brightness, contrast (openframeworks solution?) <br />
 - function to show CPU usage (top is loded, just need to implement in CP now)<br />
 - function to display version of omxplayer, feh, tcpsyphon<br />
+- if this still causes trouble:  [terminal square blink](https://raspberrypi.stackexchange.com/questions/3268/how-to-disable-local-terminal-showing-through-when-playing-video)
+- add dmx in scripts to trigger videos via dmx: https://wiki.openlighting.org/index.php/OLA_DMX_Trigger <br />
+
 
 
 ### OS for PVJ xxx: <br />
 - switch to debian stretch or use http://raspex.exton.se/ <br />
 - add Fugio (https://www.bigfug.com) Update: https://github.com/bigfug/Fugio/issues/46#issuecomment-464824307 <br />
-- add docker ? <br />
 
 ### Manual .pdf: <br />
-- Something about GPIO, where is the script and how to connect buttons <br />
+- Update to Exhibition <br />
 
 
 ### Tutorials (Pocketvj.com/Vimeo): <br />
