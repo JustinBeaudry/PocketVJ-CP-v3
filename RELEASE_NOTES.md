@@ -9,7 +9,7 @@ Added elFinder<br />
 Added Password login for CP<br />
 Added SSL self assigned script for https<br />
 Removed cursor<br />
-(Updated kernel) reverted<br />
+Updated kernel from 4.14.43 to 4.14.98<br />
 
 ## CP 2.4.4a 14.August 2019<br />
 
