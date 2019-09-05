@@ -1,6 +1,13 @@
 # PocketVJ 3.x Control Panel
 
-## CP update for 3.9 coming this week...
+## CP 2.5.0 05.September 2019<br />
+
+New Logo with slogan<br />
+Direct (questionmark icon) link to github issue page<br />
+Added button to start VNC Screensharing from CP<br />
+Button for webserver password protection (3.8 nd earlier need to set pw first!)<br />
+Some overall tweaks<br />
+
 
 ## Image 3.9 01.September 2019<br />
 
