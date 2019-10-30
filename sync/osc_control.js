@@ -65,6 +65,13 @@ console.log('Shutting down All');
 exec("/var/www/sync/shutdownall");
 });
 
+//# Get webcontent
+
+receiver.on('/getcontent', function () {
+console.log('get content from web');
+exec("/var/www/sync/getcontent");
+});
+
 
 //#  Audio Output and Testtone section
 
