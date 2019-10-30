@@ -12,4 +12,10 @@
 
 wget https://www.pocketvj.com/video/test_right.mp4 -O /media/internal/video/01_download.mp4 &
 
+
+
+#contributed code by frankbash.com to download all files from a folder (not tested yet...)
+#wget -r -v -c -nd -R "index.html*" -P "/media/internal/video/" http://examplesite or server adress/ &
+
+
 exit 0
