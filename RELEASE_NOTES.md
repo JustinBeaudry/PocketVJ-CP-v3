@@ -1,5 +1,12 @@
 # PocketVJ 3.x Control Panel
 
+## CP 2.5.1 31.October 2019<br />
+
+Added "Set Date/Time from user" button, this will catch the time from your computer and writes it to the RTC<br />
+Removed Streamer Buttons since its too complicated to stream webrtc without ssl on modern browsers<br />
+Updated the getcontent script with an addition from user frankbash<br />
+
+
 ## CP 2.5.0 05.September 2019<br />
 
 New Logo with slogan<br />

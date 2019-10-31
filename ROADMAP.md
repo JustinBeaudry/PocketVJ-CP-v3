@@ -13,7 +13,6 @@
 ### Streaming: <br />
 - advanced HTML5 contents (maybe insta & twitter feeds)<br />
 - Remove NDI since NewTek discountinued ARM support<br />
-- uv4l (https://www.linux-projects.org/uv4l/tutorials/desktop-streaming/)<br />
 
 ### Image: <br />
 - slideshow with ken burns effect (tested it, there is not enough processing power) <br />
@@ -41,14 +40,6 @@
 - if this still causes trouble:  [terminal square blink](https://raspberrypi.stackexchange.com/questions/3268/how-to-disable-local-terminal-showing-through-when-playing-video)
 - add dmx in scripts to trigger videos via dmx: https://wiki.openlighting.org/index.php/OLA_DMX_Trigger <br />
 
-
-
-### OS for PVJ xxx: <br />
-- switch to debian stretch or use http://raspex.exton.se/ <br />
-- add Fugio (https://www.bigfug.com) Update: https://github.com/bigfug/Fugio/issues/46#issuecomment-464824307 <br />
-
-### Manual .pdf: <br />
-- Update to Exhibition <br />
 
 
 ### Tutorials (Pocketvj.com/Vimeo): <br />
