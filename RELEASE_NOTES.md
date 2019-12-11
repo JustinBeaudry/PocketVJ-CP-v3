@@ -1,4 +1,4 @@
-# PocketVJ 3.x Control Panel
+# PocketVJ 3.x /  Control Panel 2.x.x
 
 ## CP 2.5.1 31.October 2019<br />
 
