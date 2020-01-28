@@ -1,5 +1,11 @@
 # PocketVJ 3.x /  Control Panel 2.x.x
 
+
+## CP 2.5.1a 28.January 2020<br />
+
+set date from user had a wrong link, its fixed now!
+
+
 ## CP 2.5.1 31.October 2019<br />
 
 Added "Set Date/Time from user" button, this will catch the time from your computer and writes it to the RTC<br />
