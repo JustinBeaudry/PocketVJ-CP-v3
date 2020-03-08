@@ -2,6 +2,8 @@
 **********
 
 ### Video: <br />
+- check if really large videos play or if line 84 in  /usr/bin/omxplayer-sync
+must be set to 15 <br />
 - fade in/out for movies <br />
 - play movies and images after each other <br />
 - sync with USB alsa audio does not work, fix it! (is this needed in any way?)<br />
