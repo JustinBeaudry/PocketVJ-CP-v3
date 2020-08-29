@@ -2,6 +2,7 @@
 **********
 
 ### Video: <br />
+- check if on 24/7 sync installations files in /var/log/ or /tmp/ or /var/tmp/ grow and cause a sd overfill <br />
 - check if really large videos play or if line 84 in  /usr/bin/omxplayer-sync
 must be set to 15 <br />
 - fade in/out for movies <br />
